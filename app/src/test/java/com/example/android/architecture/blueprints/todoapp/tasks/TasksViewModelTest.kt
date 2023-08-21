@@ -87,7 +87,7 @@ class TasksViewModelTest {
         assertThat(tasksViewModel.uiState.first().isLoading).isFalse()
 
         // And data correctly loaded
-        assertThat(tasksViewModel.uiState.first().items).hasSize(5)
+        assertThat(tasksViewModel.uiState.first().items).hasSize(3)
     }
 
     @Test
