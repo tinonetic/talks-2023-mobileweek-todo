@@ -20,6 +20,8 @@ plugins {
     alias(libs.plugins.kapt)
     alias(libs.plugins.ksp)
     alias(libs.plugins.hilt)
+    id("com.google.firebase.appdistribution")
+    id("com.google.gms.google-services")
 }
 
 android {

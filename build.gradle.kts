@@ -13,6 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+buildscript {
+    dependencies {
+        classpath("com.android.tools.build:gradle:3.4.0")
+        classpath("com.google.gms:google-services:4.3.15")
+        classpath("com.google.firebase:firebase-appdistribution-gradle:4.0.0")
+    }
+}
 plugins {
     alias(libs.plugins.android.application) apply false
     alias(libs.plugins.android.library) apply false
